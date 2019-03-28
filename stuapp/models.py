@@ -37,4 +37,3 @@ class Movie(models.Model):
 
 class Student(models.Model):
     sname = models.CharField(max_length=30)
-    sage = models.IntegerField(max_length=2)
